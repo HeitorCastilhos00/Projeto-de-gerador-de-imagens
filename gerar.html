@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./estilos/estilo.css">
+</head>
+    <style>
+        body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f9fafc;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #1a1a1a;
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+ul li {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+}
+
+ul li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #1a73e8;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 16px;
+    background-color: #6ca7f6;
+    color: rgb(243, 238, 238);
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #174cb6;
+}
+
+img {
+    margin-top: 30px;
+    max-width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+    </style>
+    <body>
+    <h1>GERADOR DE IMAGENS</h1>
+    <br>
+    <ul>
+            <h2><li><b>Descreva</b> a imagem que você quer gerar</li></h2>
+            <h2><li>Após isso, <b>confirme</b></li></h2>
+    </ul>
+    <form action="#">
+    <input type="text">
+    <button>GERAR IMAGENS</button> </form>
+
+    <br>
+        <img src="https://picsum.photos/200?random=1" alt="">
+
+        <br>
+        <br>
+    <button><a href="sobre.html"><b>SOBRE</b></a></button>
+    <button><a href="galeria.html"><b>GALERIA</b></a></button>
+    <button><a href="index.html"><b>INICIO</b></a></button>
+    <button><a href="contato.html"><b>CONTATO</b></a></button>
+
+
+
+</body>  
+</html>
